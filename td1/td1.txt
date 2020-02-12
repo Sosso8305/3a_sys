@@ -1,0 +1,57 @@
+1 CONSTANTES DE COMPATIBILITE
+
+Exercice 1:
+voir posix.c
+
+Exercice 2:
+gcc -D_POSIX_SOURCE=2008 -o posix2008 posix.c
+
+Exercice 3:
+Les tests (if ou #if) sont simplifiés à la compilation, ils n'ont pas lieu à l'exécution.
+
+Exercice 4:
+voir sysconf.c
+
+2 ENVIRONNEMENT
+
+Exercice 5:
+ok
+
+Exercice 6:
+voir env.c
+
+Exercice 7:
+voir getenv.c
+
+3 APPEL SYSTÈME ET GESTION DES ERREURS
+
+Exercice 8:
+voir hello.c
+
+Exercice 9:
+voir hello.c
+
+Exercice 10:
+voir helloerr.c
+
+Exercice 11:
+voir helloerr.c
+
+4 ACCÈS AUX LIMITES DU SYSTÈME
+
+Exercice 12:
+voir pathconf.c
+
+Exercice 13:
+Je n'arrive pas à récupérer MAX_ARG (??)
+
+5 BASE DE DONNÉS UTILISATEUR
+
+Exercice 14:
+voir userinfo.c
+
+Exercice 15:
+voir userinfo.c
+
+Exercice 16:
+??
